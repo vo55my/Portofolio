@@ -1,0 +1,21 @@
+@font-face {
+  font-family: leaguespartan;
+  src: url(font/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: titilium;
+  src: url(font/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+body {
+  font-family: 'leaguespartan';
+}
+
+#home {
+  font-family: 'titilium';
+}
+
+.card img {
+  filter: brightness(50%);
+}
