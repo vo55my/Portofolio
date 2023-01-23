@@ -19,3 +19,7 @@ body {
 .card img {
   filter: brightness(50%);
 }
+
+.progress {
+  height: 25px;
+}
