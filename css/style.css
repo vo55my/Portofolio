@@ -1,11 +1,11 @@
 @font-face {
   font-family: leaguespartan;
-  src: url(/font/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+  src: url(../font/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: titilium;
-  src: url(/font/Titillium_Web/TitilliumWeb-Black.ttf);
+  src: url(../font/Titillium_Web/TitilliumWeb-Black.ttf);
 }
 
 body {
