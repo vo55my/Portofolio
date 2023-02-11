@@ -41,11 +41,14 @@ body {
 #about,
 #skill,
 #project,
-#contact,
-.navbar {
+#contact {
   background-color: black;
 }
 
 .link {
-  margin: 0px -15px;
+  margin: 0px -12px;
+}
+
+.fp-watermark {
+  z-index: -9999;
 }
