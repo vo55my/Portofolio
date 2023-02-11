@@ -11,214 +11,230 @@
   <title>Dhaifullah Hilmy</title>
 </head>
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+  <nav class="navbar fixed-top navbar-expand">
+    <div class="container-fluid justify-content-center">
         <ul class="navbar-nav text-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#firstPage"><i class="bi bi-house-fill"></i> Home</a>
+          <li class="nav-item px-2">
+            <a class="nav-link text-light" href="#page/slide1"><i class="bi bi-house-fill"></i><p>Home</p></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#secondPage"><i class="bi bi-info-circle-fill"></i> About</a>
+          <li class="nav-item px-2">
+            <a class="nav-link text-light" href="#page/slide2"><i class="bi bi-info-circle-fill"></i><p>About</p></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#thirdPage"><i class="bi bi-bar-chart-fill"></i> Skill</a>
+          <li class="nav-item px-2">
+            <a class="nav-link text-light" href="#page/slide3"><i class="bi bi-bar-chart-fill"></i><p>Skill</p></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#fourthPage"><i class="bi bi-collection-fill"></i> Project</a>
+          <li class="nav-item px-2">
+            <a class="nav-link text-light" href="#page/slide4"><i class="bi bi-collection-fill"></i><p>Project</p></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#fifthPage"><i class="bi bi-person-circle"></i> Contact</a>
+          <li class="nav-item px-2">
+            <a class="nav-link text-light" href="#page/slide5"><i class="bi bi-person-circle"></i><p>Contact</p></a>
           </li>
         </ul>
       </div>
-    </div>
   </nav>
 
   <div id="fullpage">
     <div class="section">
-      <div class="container my-5 py-3">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-lg-6 col-md-6 col-sm-12 align-items-center">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner text-center">
-                <div class="carousel-item active">
-                  <img src="img/Hilmy_1.png" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/Hilmy_2.png" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/Hilmy_3.png" alt="...">
-                </div>
-              </div>
+      <div class="slide" data-anchor="slide2" id="about">
+        <div class="container text-center text-light">
+          <p class="display-4 font-1 mt-5 pt-4">About Me</p>
+          <div class="row align-items-center">
+            <div class="col">
+              <img src="img/Hilmy_2.png" alt="">
+              <p class="display-4 font-1">I'm a <span id="nama">Programmer</span></p>
             </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 mt-2 text-center">
-            <p class="display-4 font-1">Hello, My name is Dhaifullah Hilmy</p>
-            <i class="bi bi-chevron-double-up fs-5"></i>
-            <p class="fs-5">Swipe Up</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section" id="about">
-      <div class="container text-center px-5 text-light">
-        <p class="display-4 font-1">About Me</p>
-        <p class="fs-5">Mahasiswa semester 6 jurusan Teknik Informatika dari Universitas Pasundan. Memiliki minat tinggi dalam dunia Front-End Web Developer serta pengetahuan dalam bekerja sama dengan orang lain dan kolaborasi proyek dengan berbagai tim dari latar belakang berbeda.</p>
-      </div>
-    </div>
-
-    <div class="section">
-      <div class="container px-4">
-        <p class="display-4 text-center font-1">Skill</p>
-        <div class="row">
-          <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
-            <img width="100" src="img/html.png" alt="">
-            <div class="progress my-3 mx-4" role="progressbar">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 50%;">50%</div>
-            </div>        
-          </div>
-          <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
-            <img width="100" src="img/css-3.png" alt="">
-            <div class="progress my-3 mx-4" role="progressbar">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 50%">50%</div>
-            </div>        
-          </div>
-          <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
-            <img width="100" src="img/js.png" alt="">
-            <div class="progress my-3 mx-4" role="progressbar">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 30%">30%</div>
-            </div>        
-          </div>
-          <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
-            <img width="100" src="img/php.png" alt="">
-            <div class="progress my-3 mx-4" role="progressbar">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 40%">40%</div>
-            </div>        
-          </div>
-          <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
-            <img width="100" src="img/mysql.png" alt="">
-            <div class="progress my-3 mx-4" role="progressbar">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 40%">40%</div>
-            </div>        
-          </div>
-          <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
-            <img width="100" src="img/java.png" alt="">
-            <div class="progress my-3 mx-4" role="progressbar">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 50%">50%</div>
-            </div>        
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <div class="container mb-5 py-3 px-5 text-light">
-        <p class="display-4 text-center font-1">Project</p>
-        <div class="row justify-content-center">
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2">
-            <div class="card border-0">
-              <img src="img/Whack A Mole.jpg" class="card-img" alt="...">
-              <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                <h5 class="card-title text-center">
-                  <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/Whack_a_Mole/">Whack A Mole</a>
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2">
-            <div class="card border-0">
-              <img src="img/VCARD.jpg" class="card-img" alt="...">
-              <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                <h5 class="card-title text-center">
-                  <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/VCARD/">VCARD</a>
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2">
-            <div class="card border-0">
-              <img src="img/Landing_Page.jpg" class="card-img" alt="...">
-              <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                <h5 class="card-title text-center">
-                  <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/Landing_Page/">Landing Page</a>
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2">
-            <div class="card border-0">
-              <img src="img/Flexbox.jpg" class="card-img" alt="...">
-              <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                <h5 class="card-title text-center">
-                  <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/CSS_Grid-Flexbox/">Gaming Store</a>
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2">
-            <div class="card border-0">
-              <img src="img/Bookshelf_App.jpg" class="card-img" alt="...">
-              <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                <h5 class="card-title text-center">
-                  <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/BookShelf-App/">BookShelf App</a>
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2">
-            <div class="card border-0">
-              <img src="img/ELEVEN_FOOD.jpg" class="card-img" alt="...">
-              <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                <h5 class="card-title text-center">
-                  <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/ELEVEN_FOOD/">ELEVEN FOOD</a>
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 my-2">
-            <div class="card border-0">
-              <img src="img/MyCloth.jpg" class="card-img" alt="...">
-              <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                <h5 class="card-title text-center">
-                  <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/TUBES-2_ITW_203040119/">MyCloth Indonesia</a>
-                </h5>
-              </div>
+            <div class="col">
+              <p class="fs-5">Mahasiswa semester 6 jurusan Teknik Informatika dari Universitas Pasundan. Memiliki minat tinggi dalam dunia Front-End Web Developer serta pengetahuan dalam bekerja sama dengan orang lain dan kolaborasi proyek dengan berbagai tim dari latar belakang berbeda.</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="section">
-      <div class="container text-center">
-        <p class="display-4 font-1">Contact</p>
-        <div class="row justify-content-center">
-          <div class="col-1">
-            <a href="mailto:dhaifullahhilmy@gmail.com" target="_blank" class="text-dark fs-1"><i class="bi bi-envelope-fill"></i></a>
+      <div class="slide" data-anchor="slide3" id="skill">
+        <div class="container text-light">
+          <p class="display-4 text-center font-1 mt-4 pt-5">Skill</p>
+          <div class="row">
+            <p class="fs-4 text-center font-1">Bahasa Pemograman</p>
+            <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
+              <img width="100" src="img/html.png" alt="">
+              <div class="progress my-3 mx-4" role="progressbar">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 50%;">50%</div>
+              </div>        
+            </div>
+            <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
+              <img width="100" src="img/css-3.png" alt="">
+              <div class="progress my-3 mx-4" role="progressbar">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 50%">50%</div>
+              </div>        
+            </div>
+            <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
+              <img width="100" src="img/js.png" alt="">
+              <div class="progress my-3 mx-4" role="progressbar">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 30%">30%</div>
+              </div>        
+            </div>
+            <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
+              <img width="100" src="img/php.png" alt="">
+              <div class="progress my-3 mx-4" role="progressbar">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 40%">40%</div>
+              </div>        
+            </div>
+            <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
+              <img width="100" src="img/mysql.png" alt="">
+              <div class="progress my-3 mx-4" role="progressbar">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 40%">40%</div>
+              </div>        
+            </div>
+            <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
+              <img width="100" src="img/java.png" alt="">
+              <div class="progress my-3 mx-4" role="progressbar">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 50%">50%</div>
+              </div>        
+            </div>
           </div>
-          <div class="col-1">
-            <a href="https://www.facebook.com/profile.php?id=100007533818546" target="_blank" class="text-dark fs-1"><i class="bi bi-facebook"></i></a>
+          <div class="row justify-content-center my-4">
+            <div class="col-6 col-lg-4 col-md-4 col-sm-6 text-center my-2">
+              <p class="fs-4 text-center font-1">Framework</p>
+              <a href="https://getbootstrap.com/" target="_blank">
+                <img src="img/bootstrap.png" width="120" height="100" alt="">
+              </a>
+            </div>
+            <div class="col-6 col-lg-4 col-md-4 col-sm-6 text-center my-2">
+              <p class="fs-4 text-center font-1">Teknologi</p>
+              <a href="https://github.com/vo55my" target="_blank">
+                <img src="img/github.png" width="100" alt="">
+              </a>
+            </div>
+            <div class="col-12 col-lg-4 col-md-4 col-sm-12 text-center my-2">
+              <p class="fs-4 text-center font-1">Alat</p>
+              <a href="https://code.visualstudio.com/">
+                <img src="img/vscode.png" width="100" alt="" class="mx-2">
+              </a>
+              <a href="https://www.coreldraw.com/en/">
+                <img src="img/corel-draw.png" width="100" alt="" class="mx-2">
+              </a>
+            </div>
           </div>
-          <div class="col-1">
-            <a href="https://github.com/vo55my" target="_blank" class="text-dark fs-1"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+
+      <div class="slide" data-anchor="slide4" id="project">
+        <div class="container text-light">
+          <p class="display-4 text-center font-1 mt-5 pt-4">Project</p>
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-4 col-sm-6 my-2">
+              <div class="card border-0">
+                <img src="img/Whack A Mole.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                  <h5 class="card-title text-center">
+                    <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/Whack_a_Mole/">Whack A Mole</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 my-2">
+              <div class="card border-0">
+                <img src="img/VCARD.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                  <h5 class="card-title text-center">
+                    <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/VCARD/">VCARD</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 my-2">
+              <div class="card border-0">
+                <img src="img/Landing_Page.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                  <h5 class="card-title text-center">
+                    <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/Landing_Page/">Landing Page</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 my-2">
+              <div class="card border-0">
+                <img src="img/Flexbox.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                  <h5 class="card-title text-center">
+                    <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/CSS_Grid-Flexbox/">Gaming Store</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 my-2">
+              <div class="card border-0">
+                <img src="img/Bookshelf_App.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                  <h5 class="card-title text-center">
+                    <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/BookShelf-App/">BookShelf App</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 my-2">
+              <div class="card border-0">
+                <img src="img/ELEVEN_FOOD.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                  <h5 class="card-title text-center">
+                    <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/ELEVEN_FOOD/">ELEVEN FOOD</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 my-2">
+              <div class="card border-0">
+                <img src="img/MyCloth.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                  <h5 class="card-title text-center">
+                    <a class="text-decoration-none text-light" target="_blank" href="https://vo55my.github.io/TUBES-2_ITW_203040119/">MyCloth Indonesia</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-1">
-            <a href="https://www.instagram.com/si_hilmy" target="_blank" class="text-dark fs-1"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="slide" data-anchor="slide5" id="contact">
+        <div class="container text-center text-light">
+          <p class="display-4 font-1">Contact</p>
+          <div class="row justify-content-center">
+            <div class="col-1">
+              <a href="mailto:dhaifullahhilmy@gmail.com" target="_blank" class="text-light fs-1"><i class="bi bi-envelope-fill"></i></a>
+            </div>
+            <div class="col-1">
+              <a href="https://www.facebook.com/profile.php?id=100007533818546" target="_blank" class="text-light fs-1"><i class="bi bi-facebook"></i></a>
+            </div>
+            <div class="col-1">
+              <a href="https://github.com/vo55my" target="_blank" class="text-light fs-1"><i class="bi bi-github"></i></a>
+            </div>
+            <div class="col-1">
+              <a href="https://www.instagram.com/si_hilmy" target="_blank" class="text-light fs-1"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div class="col-1">
+              <a href="https://www.linkedin.com/in/dhaifullah-hilmy/" target="_blank" class="text-light fs-1"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <div class="col-1">
+              <a href="https://wa.me/083816015273" target="_blank" class="text-light fs-1"><i class="bi bi-whatsapp"></i></a>
+            </div>
+            <p class="text-center pt-5 mb-5">Created with 🔥 by Dhaifullah Hilmy</p>
           </div>
-          <div class="col-1">
-            <a href="https://www.linkedin.com/in/dhaifullah-hilmy/" target="_blank" class="text-dark fs-1"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      
+      <div class="slide" data-anchor="slide1">
+        <div id="particles-js"></div>
+        <div class="container-fluid">
+          <div class="row justify-content-center align-items-center text-light test">
+            <div class="col-lg-6 col-md-6 col-sm-12 align-items-center text-center">
+              <img src="img/Hilmy_1.png" alt="...">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+              <p class="display-4 font-1">Hello, My name is Dhaifullah Hilmy</p>
+              <p class="fs-5">Swipe <i class="bi bi-chevron-double-right"></i></p>
+            </div>
           </div>
-          <div class="col-1">
-            <a href="https://wa.me/083816015273" target="_blank" class="text-dark fs-1"><i class="bi bi-whatsapp"></i></a>
-          </div>
-          <p class="text-center pt-5 mb-5">Created with 🔥 by Dhaifullah Hilmy</p>
         </div>
       </div>
     </div>
@@ -231,13 +247,20 @@
     new fullpage('#fullpage', {
     //options here
     autoScrolling:true,
-    scrollHorizontally: true,
-    navigation: true,
-    scrollOverflowMacStyle: true,
-    slidesNavigation: true,
-    anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
-    sectionsColor: ['white', 'black', 'white', 'black', 'white']
+    anchors:['page'],
+    controlArrows: false
   });
   </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+  <script>
+    gsap.from("#nama", {duration: 5, text: ""});
+    gsap.to("#nama", {duration: 5, text: "Youtuber", delay: 5});
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/Flip.min.js"></script>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>

@@ -23,3 +23,25 @@ body {
 .progress {
   height: 25px;
 }
+
+#particles-js {
+  position: absolute;
+  width: 1370px;
+  height: 653px;
+  background-color: black;
+  z-index: -9999;
+  top: 0%;
+  /* left: 84%; */
+  right: -0%;
+}
+
+.test {
+  z-index: 2;
+}
+
+#about,
+#skill,
+#project,
+#contact {
+  background-color: black;
+}
