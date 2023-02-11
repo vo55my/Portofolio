@@ -41,7 +41,8 @@ body {
 #about,
 #skill,
 #project,
-#contact {
+#contact,
+.navbar {
   background-color: black;
 }
 
