@@ -1,11 +1,11 @@
 @font-face {
   font-family: leaguespartan;
-  src: url(font/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+  src: url(/font/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: titilium;
-  src: url(font/Titillium_Web/TitilliumWeb-Black.ttf);
+  src: url(/font/Titillium_Web/TitilliumWeb-Black.ttf);
 }
 
 body {
@@ -27,12 +27,11 @@ body {
 #particles-js {
   position: absolute;
   width: 1370px;
-  height: 653px;
+  height: 700px;
   background-color: black;
   z-index: -9999;
-  top: 0%;
-  /* left: 84%; */
-  right: -0%;
+  top: -0%;
+  right: 80%;
 }
 
 .test {
@@ -42,6 +41,11 @@ body {
 #about,
 #skill,
 #project,
-#contact {
+#contact,
+.navbar {
   background-color: black;
+}
+
+.link {
+  margin: 0px -15px;
 }
