@@ -53,3 +53,17 @@ body {
 .fp-watermark {
   z-index: -9999;
 }
+
+.navbar {
+  margin-bottom: -20px;
+}
+
+@media (max-width: 576px) {
+  .foto {
+    height: 300px;
+  }
+
+  #slide1 {
+    margin-top: -60px;
+  }
+}

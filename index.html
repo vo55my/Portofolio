@@ -11,22 +11,22 @@
   <title>Dhaifullah Hilmy</title>
 </head>
 <body>
-  <nav class="navbar fixed-bottom navbar-expand">
+  <nav class="navbar fixed-bottom navbar-expand bg-dark shadow-lg rounded">
     <div class="container-fluid justify-content-center">
         <ul class="navbar-nav text-center">
-          <li class="nav-item px-2">
+          <li class="nav-item px-3">
             <a class="nav-link text-light" href="#page/slide1"><i class="bi bi-house-fill"></i><p>Home</p></a>
           </li>
-          <li class="nav-item px-2">
+          <li class="nav-item px-3">
             <a class="nav-link text-light" href="#page/slide2"><i class="bi bi-info-circle-fill"></i><p>About</p></a>
           </li>
-          <li class="nav-item px-2">
+          <li class="nav-item px-3">
             <a class="nav-link text-light" href="#page/slide3"><i class="bi bi-bar-chart-fill"></i><p>Skill</p></a>
           </li>
-          <li class="nav-item px-2">
+          <li class="nav-item px-3">
             <a class="nav-link text-light" href="#page/slide4"><i class="bi bi-collection-fill"></i><p>Project</p></a>
           </li>
-          <li class="nav-item px-2">
+          <li class="nav-item px-3">
             <a class="nav-link text-light" href="#page/slide5"><i class="bi bi-person-circle"></i><p>Contact</p></a>
           </li>
         </ul>
@@ -35,12 +35,12 @@
 
   <div id="fullpage">
     <div class="section">
-      <div class="slide" data-anchor="slide1">
-        <div class="container mb-5 pb-5">
+      <div class="slide" data-anchor="slide1" id="slide1">
+        <div class="container">
           <div id="particles-js"></div>
-          <div class="row justify-content-center align-items-center text-light test">
+          <div class="row d-flex justify-content-center align-items-center text-light test">
             <div class="col-lg-6 col-md-6 col-sm-12 text-center">
-              <img src="img/Hilmy_1.png" alt="...">
+              <img src="img/Hilmy_1.png" class="mt-5 foto" alt="..." height="470">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 text-center">
               <p class="display-4 font-1">Hello, My name is Dhaifullah Hilmy</p>
@@ -55,7 +55,7 @@
           <p class="display-4 font-1 mt-3">About Me</p>
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 col-sm-12">
-              <img src="img/Hilmy_2.png" alt="">
+              <img src="img/Hilmy_2.png" class="bg-light rounded foto" alt="">
               <p class="display-4 font-1">I'm a <span id="nama">Programmer</span></p>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -97,7 +97,7 @@
             <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
               <img width="100" src="img/mysql.png" alt="">
               <div class="progress my-3 mx-4" role="progressbar">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 40%">40%</div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark fs-5 pt-1" style="width: 30%">30%</div>
               </div>        
             </div>
             <div class="col-6 col-lg-2 col-md-4 col-sm-6 text-center my-2">
@@ -117,17 +117,23 @@
             <div class="col-6 col-lg-4 col-md-4 col-sm-6 text-center my-2">
               <p class="fs-4 text-center font-1">Teknologi</p>
               <a href="https://github.com/vo55my" target="_blank">
-                <img src="img/github.png" class="rounded bg-light" width="105" alt="">
+                <img src="img/github.png" width="105" alt="">
               </a>
             </div>
             <div class="col-12 col-lg-4 col-md-4 col-sm-6 text-center my-2">
               <p class="fs-4 text-center font-1">Alat</p>
-              <a href="https://code.visualstudio.com/">
-                <img src="img/vscode.png" width="100" alt="" class="mx-2 my-2">
-              </a>
-              <a href="https://www.coreldraw.com/en/">
-                <img src="img/corel-draw.png" width="100" alt="" class="mx-2 my-2">
-              </a>
+              <div class="row">
+                <div class="col-6">
+                  <a href="https://code.visualstudio.com/">
+                    <img src="img/vscode.png" width="100" alt="" class="mx-2 my-2">
+                  </a>
+                </div>
+                <div class="col-6">
+                  <a href="https://www.coreldraw.com/en/">
+                  <img src="img/corel-draw.png" width="100" alt="" class="mx-2 my-2">
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -259,7 +265,6 @@
     gsap.to("#nama", {duration: 5, text: "Youtuber", delay: 5});
   </script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/Flip.min.js"></script>
   <script src="js/particles.js"></script>
   <script src="js/app.js"></script>
 </body>
