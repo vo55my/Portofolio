@@ -1,19 +1,13 @@
-@font-face {
-  font-family: leaguespartan;
-  src: url(../font/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&display=swap');
 
-@font-face {
-  font-family: titilium;
-  src: url(../font/Titillium_Web/TitilliumWeb-Black.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&display=swap');
 
 body {
-  font-family: 'leaguespartan';
+  font-family: 'League Spartan', sans-serif;
 }
 
 .font-1 {
-  font-family: 'titilium';
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .card img {
@@ -34,7 +28,7 @@ body {
   right: 80%;
 }
 
-.test {
+.back {
   z-index: 2;
 }
 
@@ -60,7 +54,7 @@ body {
 
 @media (max-width: 576px) {
   .foto {
-    height: 300px;
+    height: 250px;
   }
 
   #slide1 {
