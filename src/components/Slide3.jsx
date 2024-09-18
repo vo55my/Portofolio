@@ -8,7 +8,7 @@ const Slide3 = () => (
       <Link href="https://www.facebook.com/profile.php?id=100007533818546" icon="bi-facebook" />
       <Link href="https://github.com/vo55my" icon="bi-github" />
       <Link href="https://www.instagram.com/si_hilmy" icon="bi-instagram" />
-      <Link href="https://www.linkedin.com/in/dhaifullah-hilmy/" icon="bi-instagram" />
+      <Link href="https://www.linkedin.com/in/dhaifullah-hilmy/" icon="bi-linkedin" />
       <p className="text-center pt-5">Created with 🔥 by Dhaifullah Hilmy</p>
     </div>
   </div>
