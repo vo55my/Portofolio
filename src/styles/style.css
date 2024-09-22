@@ -20,6 +20,22 @@ body {
   animation: move 4s linear infinite;
 }
 
+body.light-mode {
+  background: #ffffff;
+  background: linear-gradient(
+    135deg,
+    #ffffff 25%,
+    #f0f0f0 25%,
+    #f0f0f0 50%,
+    #ffffff 50%,
+    #ffffff 75%,
+    #f0f0f0 75%,
+    #f0f0f0
+  );
+  background-size: 40px 40px;
+  color: black;
+}
+
 @keyframes move {
   0% {
     background-position: 0 0;
@@ -27,6 +43,39 @@ body {
   100% {
     background-position: 40px 40px;
   }
+}
+
+body.light-mode .text-light {
+  color: black !important;
+}
+
+body.light-mode .img-thumbnail {
+  background-color: #000;
+}
+
+body.light-mode .text-bg-light {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.header {
+  background-color: #fff;
+}
+
+li .nav-link {
+  color: #000 !important;
+}
+
+body.light-mode .header {
+  background-color: #000;
+}
+
+body.light-mode li .nav-link {
+  color: #fff !important;
+}
+
+#mode-toggle {
+  background: none;
 }
 
 .link {
