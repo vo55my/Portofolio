@@ -1,12 +1,12 @@
-import Main from './components/Header';
-import Header from './components/Main';
+import Main from './components/Main';
+import Menu from './components/Menu';
 import Navbar from './components/Navbar';
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Header />
+      <Menu />
       <Main />
     </>
   );

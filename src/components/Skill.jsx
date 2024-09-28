@@ -17,7 +17,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="pb-4">
+    <div className="pb-5">
       {skills.map((skill, index) => (
         <Badge key={index} skill={skill} />
       ))}

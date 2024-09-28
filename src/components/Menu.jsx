@@ -1,17 +1,17 @@
 import NavItem from './NavItem';
 
-const Header = () => {
+const Menu = () => {
   return (
-    <nav className="navbar fixed-bottom navbar-expand header rounded">
-      <div className="container-fluid justify-content-center">
-        <ul className="navbar-nav text-center">
+    <div className="navbar fixed-bottom navbar-expand header">
+      <div className="container justify-content-center">
+        <ul className="nav nav-pills text-center rounded">
           <NavItem href="#page/slide1" icon="bi-house-fill" label="Home" />
           <NavItem href="#page/slide2" icon="bi bi-info-square-fill" label="About" />
           <NavItem href="#page/slide3" icon="bi bi-person-square" label="Contact" />
         </ul>
       </div>
-    </nav>
+    </div>
   );
 }
 
-export default Header;
+export default Menu;
